@@ -7,7 +7,7 @@
 x-www-form-urlencoded expects following body:
 ```json
 {
-  "username": "Somename"
+  "username": "Somename",
   "mobile": "9876543210"
 }
 ```
