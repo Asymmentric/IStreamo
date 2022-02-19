@@ -1,9 +1,8 @@
 # API
 ***
-### To Register 
-  * >POST: baseURL/**create** to register
-    * ``` JSON
-    * username:
-    * mobile:
-    * ```
+##POST ###Register API Client
+>baseURL/**create**
+   ```json
+   
+   ```
  
