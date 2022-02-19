@@ -1,8 +1,9 @@
 # API
-***
 
-##POST ###Register API Clients
->baseURL/**create**
+
+## Register API Clients
+>POST: baseURL/**create**
+
 x-www-form-urlencoded expects following body:
 ```javascript
 {
@@ -10,15 +11,31 @@ x-www-form-urlencoded expects following body:
   mobile: 9876543210
 }
 ```
-and it returns
+on successful registration it returns
 ```json
 {
     "msg": "User Somename  registered."
 }
 ```
-on successful registration.
+
 ***
 
-##GET ###Fetch all registered users
->baseURL/**users**
+## Fetch all registered users
+>GET:baseURL/**users**
+
+Returns list of registered users
+```javascript
+
+[
+  { name: 'Somename1' },
+  { name: 'Somename2' },
+  { name: 'Somename3' },
+  { name: 'Somename4' },
+  { name: 'Somename5' },
+  .
+  .
+  .
+]
+
+```
 
