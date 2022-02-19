@@ -5,10 +5,10 @@
 >POST: baseURL/**create**
 
 x-www-form-urlencoded expects following body:
-```javascript
+```json
 {
-  username: Somename
-  mobile: 9876543210
+  "username": "Somename"
+  "mobile": "9876543210"
 }
 ```
 on successful registration it returns
